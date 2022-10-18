@@ -4,14 +4,44 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>login form</title>
+	<link rel="stylesheet" type="text/css" href="navigation.css">
+	<style type="text/css">
+		body{
+			background-image: url(https://i.pinimg.com/736x/66/54/1c/66541c2f54167b806edcec2f2405b678.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+		.input{
+			margin-left: 77%;
+			border: 10px red;
+			width: 200%;
+			background-color:white ;
+			padding: 3%;
+			position: fixed;
+		}.login{
+			margin-right: 90%;
+			padding: 1%;
+		}.input p{
+             padding: 1%;
+		}
+		
+	</style>
 </head>
 <body>
+	<nav class="navbar">
+		<a href="registration.html">registration</a>
+		<a href="login.html">login</a>
+		<a href="photos.html">photos</a>
+		<a href="video.html">video</a>
+	</nav>
 	<form action="wiki.html">
-    <u><center><h1><p>Login here</p></h1></center></u>
-    <p><input placeholder="Enter username"type="text"></p>
-    <p><input placeholder="enter the password"type="password"></p>
-    <button>Login</button>
-    <p>Not yet a member?<a href="register.html">register.html</a></p>
+		<div class="input">
+    <u><center><h1 class="login"><p>Login here</p></h1></center></u>
+    <p><input placeholder="Enter username"type="text"required></p>
+    <p><input placeholder="enter the password"type="password"required></p>
+    <button >Login</button>
+    <p>Not yet a member?<a href="index.html">register.html</a></p>
+</div>
 </form>
 </body>
 </html>
